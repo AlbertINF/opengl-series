@@ -1,5 +1,6 @@
 #include "platform.hpp"
 #include <windows.h>
+#include <stdexcept>
 
 std::string ResourcePath(std::string fileName) {
     char executablePath[1024] = {'\0'};
